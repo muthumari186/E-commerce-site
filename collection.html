@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unisho</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+<nav class="navbar">
+    <h1>Unisho</h1>
+    <div class="navbar-links">
+        <p class="navbar-link"><a href="indext.html">Home</a></p>   
+        <p class="navbar-link"><a href="collection.html">Collections</a></p>   
+        <p class="navbar-link"><a href="contact.html">Contact</a></p>   
+    </div>
+    <div class="navbar-menu-toggle" onclick="showNavbar()">
+        <i class="fa-solid fa-bars"></i>
+    </div>
+
+<div class="side-navbar">
+    <p style="text-align: right;" onclick="closeNavbar()">
+        <i class="fa-solid fa-xmark"></i>
+    </p>
+    <div class="side-navbar-links">
+        <p class="side-navbar-link"><a href="indext.html">Home</a></p>   
+        <p class="side-navbar-link"><a href="collection.html">Collections</a></p>   
+        <p class="side-navbar-link"><a href="contact.html">Contact</a></p>   
+    </div>
+</div>
+</nav>
+<!--Product-->
+<div class="Product-section">
+    <form class="product-search">
+        <input type="text" id="search" placeholder="search">
+        <i class="fa-solid fa-magnifying-glass"> </i>
+    </form>
+    <div class="products" id="products">
+        <div class="product-box">
+            <img src="white shirt.avif" width="200px" height="200px">
+            <p>White Shirt</p>
+            </div>
+        <div class="product-box">
+            <img src="black shirt.webp" alt="" width="200px" height="200px">
+            <p>Black Shirt</p>
+            </div>
+        <div class="product-box">
+            <img src="kurti.jpg" alt="" width="200px" height="200px">
+            <p>Kurti</p>
+            </div>
+        <div class="product-box">
+            <img src="shoes.jpg" alt="" width="200px" height="200px">
+            <p>Shoes</p>
+        </div>
+    </div>
+
+</div>
+<!--Footer-->
+<div class="footer">
+   <div class="footer-container">
+    <div class="footer-box-1">
+        <h2 class="headingText">Unisho</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, aliquam?</p>
+        <div class="footer-icon-container">
+            <i class="fa-brands fa-instagram" style="color:#ffffff;"></i>
+            <i class="fa-brands fa-facebook" style="color:#ffffff;"></i>
+            <i class="fa-brands fa-twitter" style="color:#ffffff;"></i>
+        </div>
+    </div>
+
+   </div>
+   <p>@ 2024 Unisho.com</p>
+</div>
+  <script src="collection.js"></script>
+</body>
+
+</html>
